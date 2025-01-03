@@ -1,0 +1,241 @@
+/* Footer Styling */
+/*.app-footer {
+    background-color: #063451;
+    border-top: 1px solid #d1d1d1; 
+    color: #f1f1f1; 
+    text-align: center;
+    padding: 20px 0; 
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 10px;
+    min-width: 200px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    color: #f1f1f1; 
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #a8dadc; 
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #007bff; 
+  }
+  
+  .footer-section .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .footer-section .social-icons a {
+    margin: 0 10px;
+    color: #a8dadc; 
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section .social-icons a:hover {
+    color: #007bff; 
+  }
+  
+  .footer-section p {
+    margin: 0;
+    color: #a8dadc; 
+  
+  .footer-section p a {
+    color: #a8dadc; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section p a:hover {
+    color: #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      margin: 10px 0;
+    }
+  }*/
+
+
+  /* Form Styling */
+.form-container {
+  max-width: 400px;
+ /* margin: /*50px auto;*/
+  padding: 30px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.error-message, .success-message {
+  color: red; /* Keep error messages red */
+  font-size: 0.875em;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: green; /* Success messages in green */
+}
+
+/* Footer Styling */
+.app-footer {
+  background-color: #063451;
+  border-top: 1px solid #d1d1d1; 
+  color: #f1f1f1; 
+  text-align: center;
+  padding: 40px 0; 
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px 10px; /* Increased margin for better spacing */
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+  color: #f1f1f1; /* Changed to a lighter color for better contrast */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #a8dadc; /* Changed to a lighter color for better readability */
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #007bff; 
+}
+
+.footer-section .social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer-section .social-icons a {
+  margin: 0 10px;
+  color: #a8dadc; /* Ensure social icons have a default color */
+  transition: color 0.3s ease;
+}
+
+.footer-section .social-icons a:hover {
+  color: #007bff; 
+}
+
+.footer-section p {
+  margin: 0;
+  color: #a8dadc; /* Changed to a lighter color for better readability */
+}
+
+.footer-section p a {
+  color: #a8dadc; /* Ensure email link has a consistent color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section p a:hover {
+  color: #007bff; /* Match the hover color of other links */
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin: 10px 0;
+  }
+}
+
+  

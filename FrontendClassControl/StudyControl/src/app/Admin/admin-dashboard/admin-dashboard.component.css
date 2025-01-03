@@ -1,0 +1,50 @@
+
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 300px; /* Add margin-bottom to create space between content and footer */
+}
+
+.welcome-message {
+  text-align: center;
+  font-size: 48px;
+  color: #3498db; 
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  animation: slideInFromLeft 7s ease; 
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.overview-section {
+  background-color: #f4f4f4; 
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.overview-section p {
+   margin-bottom: 15px; 
+ 
+  font-size: 24px; 
+  line-height: 1.6;
+  color: #666; 
+}
+
+/* Additional style for the dashboard overview text */
+.dashboard-overview {
+  font-size: 28px; /* Example font size */
+  font-family: Arial, sans-serif; /* Example font family */
+  font-weight: bold; /* Example font weight */
+  color: #e74c3c; /* Example color */
+}

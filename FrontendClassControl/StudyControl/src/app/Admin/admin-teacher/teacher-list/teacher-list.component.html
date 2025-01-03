@@ -1,0 +1,35 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h2>Teachers List</h2>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Teacher-Id</th>
+                    <th>Teacher-Course-Id</th>
+                    <th>Teacher-Full-Name</th>
+                    <th>Teacher-Email</th>
+                    <th>Teacher-Expertise</th>
+                    <th>Teacher-Birth-Date</th>
+                    <th>Teacher-Mobile-No</th>
+                    <th>Teacher-Password</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let t of teachers | async">
+                    <td>{{t.teacher_Id}}</td>
+                    <td>{{t.courses}}</td>
+                    <td>{{t.teacher_FullName}}</td>
+                    <td>{{t.teacher_Email}}</td>
+                    <td>{{t.teacher_Expertise}}</td>
+                    <td>{{t.teacher_BirthDate}}</td>
+                    <td>{{t.teacher_MobileNo}}</td>
+                    <td>{{t.teacher_Password}}</td>
+                    <td>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

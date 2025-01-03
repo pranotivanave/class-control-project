@@ -1,0 +1,44 @@
+<nav class="nav">
+    <h1>
+        [Class-Control]
+
+    </h1>
+    <div class="nav-menu" [class.open]="menuOpen">
+        <ul>
+            <li>
+                <a routerLink="/" routerLinkActive="active" (click)="closeMenu()">Home</a
+        >
+      </li>
+      <li class="dropdown">
+        <a class="dropbtn" (click)="toggleDropdown()">Login</a>
+                <div class="dropdown-content" [class.show]="dropdownOpen">
+                    <a routerLink="/admin-login" routerLinkActive="active" (click)="closeMenu()">Admin</a
+          >
+          <a
+            routerLink="/teacher"
+            routerLinkActive="active"
+            (click)="closeMenu()"
+            >Teacher</a
+          >
+          <a
+            routerLink="/student-auth"
+            routerLinkActive="active"
+            (click)="closeMenu()"
+            >Student</a
+          >
+        </div>
+      </li>
+      <li>
+        <a routerLink="/about" routerLinkActive="active" (click)="closeMenu()"
+          >About</a
+        >
+      </li>
+      <li>
+        <a routerLink="/contact" routerLinkActive="active" (click)="closeMenu()"
+          >Contact Us</a
+        >
+      </li>
+    </ul>
+  </div>
+  <div class="menu-toggle" (click)="toggleMenu()">&#9776;</div>
+</nav>

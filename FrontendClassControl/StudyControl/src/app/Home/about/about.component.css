@@ -1,0 +1,42 @@
+/* About Container Styling */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+    background-color: #f0f8ff; 
+    text-align: center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+  }
+  
+  .about-content h2 {
+    font-size: 2.5rem;
+    color: #2c3e50; 
+    margin-bottom: 1rem;
+    font-weight: bold; 
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #34495e; 
+    margin-bottom: 2rem;
+  }
+  .image-container {
+    width: 100%;
+    max-width: 600px; 
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+    

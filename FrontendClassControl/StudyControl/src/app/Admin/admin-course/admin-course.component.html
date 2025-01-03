@@ -1,0 +1,14 @@
+<app-admin-siderbar>
+</app-admin-siderbar>
+<div class="button-container">
+    <button (click)="createCourse()" type="button" class="btn btn-outline-success">Create Course</button>
+    <button (click)="getAllCourse()" type="button" class="btn btn-outline-success">Course List</button>
+</div>
+
+<!-- Conditionally display the create course form -->
+<div *ngIf="showCreateCourseForm">
+    <app-createcourse></app-createcourse>
+</div>
+
+<!-- Router outlet to display other components like course list and update -->
+<router-outlet *ngIf="!showCreateCourseForm"></router-outlet>

@@ -1,0 +1,44 @@
+<!-- <app-admin-siderbar>
+</app-admin-siderbar>
+<div class="button-container">
+    <button (click)="createClassroom()" type="button" class="btn btn-outline-success">Create Classroom</button>
+    <button (click)="getAllClassroom()" type="button" class="btn btn-outline-success">Classroom List</button>
+</div>
+
+<div *ngIf="showCreateClassroomForm">
+    <app-create-classroom></app-create-classroom>
+</div>
+
+<router-outlet *ngIf="!showCreateClassroomForm"></router-outlet>
+
+-->
+<!-- admin-classroom.component.html -->
+<!-- <app-admin-siderbar></app-admin-siderbar> 
+<div class="button-container">
+  <button (click)="createClassroom()" type="button" class="btn btn-outline-success">Create Classroom</button>
+  <button (click)="getAllClassroom()" type="button" class="btn btn-outline-success">Classroom List</button>
+</div>
+
+
+<div *ngIf="showCreateClassroomForm">
+  <app-create-classroom></app-create-classroom>
+</div>
+
+<router-outlet *ngIf="!showCreateClassroomForm"></router-outlet>-->
+
+
+<!-- admin-classroom.component.html -->
+<app-admin-siderbar></app-admin-siderbar>
+<div class="button-container">
+  <button (click)="createClassroom()" type="button" class="btn btn-outline-success">Create Classroom</button>
+  <button (click)="getAllClassroom()" type="button" class="btn btn-outline-success">Classroom List</button>
+</div>
+
+<!-- Conditionally display the create classroom form -->
+<div *ngIf="showCreateClassroomForm">
+  <app-create-classroom></app-create-classroom>
+</div>
+
+<!-- Router outlet to display other components like classroom list and update -->
+<router-outlet *ngIf="!showCreateClassroomForm"></router-outlet>
+

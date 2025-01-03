@@ -1,0 +1,59 @@
+/* Container styling */
+.container {
+    max-width: 600px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #fff; /* Background color */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Box shadow for a subtle effect */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 15px; /* Space between form groups */
+  }
+  
+  .form-group label {
+    display: block; /* Ensure labels are block elements */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Make labels bold */
+  }
+  
+  .form-group input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    box-sizing: border-box; /* Ensure padding and border are included in the total width */
+  }
+  
+  /* Button styling */
+  .btn {
+    display: inline-block; /* Display as inline-block */
+    padding: 10px 20px; /* Padding for the button */
+    color: white; /* Text color */
+    background-color: #28a745; /* Success color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .btn:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px; /* Less padding on smaller screens */
+    }
+  
+    .btn {
+      width: 100%; /* Full width button on small screens */
+      margin-top: 10px; /* Margin on top of the button */
+    }
+  }
+  

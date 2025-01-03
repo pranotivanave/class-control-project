@@ -1,0 +1,34 @@
+<p>classroomlist works!</p>
+
+<div class="page-container">
+    <div class="container mt-3 course-list-container">
+        <h2>Classrooms List</h2>
+        <div class="table-responsive">
+            <table class="table table-striped course-list-table">
+                <thead>
+                    <tr>
+                        <th scope="col">Course Id</th>
+                        <th scope="col">Classroom Id</th>
+                        <th scope="col">Classroom Name</th>
+                        <th scope="col">Classroom Description</th>
+                        <th scope="col">Teacher Id</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let cr of classrooms | async">
+                        <td>{{ cr.course }}</td>
+                        <td>{{ cr.classroom_Id }}</td>
+                        <td>{{ cr.classroom_Name }}</td>
+                        <td>{{ cr.classroom_Description }}</td>
+                        <td>{{ cr.teacher }}</td>
+                        <td>
+                            <button (click)="deleteClassroom(cr.classroom_Id)" class="btn btn-info btn-margin">Delete</button>
+                            <button (click)="updateClassroom(cr.classroom_Id)" class="btn btn-info btn-margin">Edit</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
